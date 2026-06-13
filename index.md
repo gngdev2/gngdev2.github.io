@@ -24,7 +24,6 @@ title: gng
     font-weight: 800 !important; /* Extra bold for a modern editorial look */
     color: #f0f6fc !important;            
     letter-spacing: -0.03em; 
-    border-bottom-color: #21262d !important;
   }
   
   /* Beautiful, readable links */
@@ -61,6 +60,5 @@ title: gng
 </div>
 
 <div style="text-align: center;">
-### Poly Ottermatic
-An isometric mobile game
+An isometric sea otter adventure
 </div>
