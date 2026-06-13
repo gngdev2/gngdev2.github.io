@@ -67,9 +67,7 @@ title: gng
 
 <h1 style="text-align: center;">gng: hello - hi</h1>
 
-<div style="text-align: center;">
-<h2>Poly Otter</h2>
-</div>
+<h2 style="text-align: center;">Poly Otter</h2>
 
 <div class="video-container">
   <iframe 
