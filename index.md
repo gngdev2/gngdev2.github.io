@@ -49,7 +49,7 @@ title: gng
   }
 </style>
 
-<h1>hello - hi</h1>
+<h1 style="text-align: center;">gng: hello - hi</h1>
 
 <div style="text-align: center;">
 <h2>Poly Otter</h2>
