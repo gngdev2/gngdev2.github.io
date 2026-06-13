@@ -16,6 +16,17 @@ title: gng
     color: #c9d1d9 !important;            
     letter-spacing: 0.01em; 
   }
+
+    /* Hide the automatic hover link icons next to headings */
+  .anchor {
+    display: none !important;
+  }
+  
+  h1:hover .anchor, 
+  h2:hover .anchor, 
+  h3:hover .anchor {
+    display: none !important;
+  }
   
   /* Removed the borders and lines here */
   h1, h2, h3, h4, h5, h6 {
