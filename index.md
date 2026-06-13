@@ -47,6 +47,22 @@ title: gng
     border-top: none !important;         /* Removes the line above the footer */
     padding-top: 2rem !important;
   }
+  
+  /* Responsive Video Container */
+  .video-container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;        /* Dictates how large the video gets on big desktop screens */
+    margin: 2rem auto;       /* Centers the container and gives it top/bottom breathing room */
+  }
+
+  .video-container iframe {
+    width: 100% !important;  /* Forces the iframe to fill the container width */
+    height: auto !important;
+    aspect-ratio: 16 / 9;    /* Maintains perfect cinematic proportions on all screens */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
 </style>
 
 <h1 style="text-align: center;">gng: hello - hi</h1>
@@ -55,8 +71,14 @@ title: gng
 <h2>Poly Otter</h2>
 </div>
 
-<div style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/gSVaykTc9rY" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
 </div>
 
 <div style="text-align: center;">
