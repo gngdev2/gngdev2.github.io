@@ -1,12 +1,4 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
-
-# Chirpy requires these to build links properly
-url: "https://gngdev2.github.io"
-baseurl: "/main"
-
-# Chirpy uses advanced SCSS syntax, so Jekyll needs to know where to look
-sass:
-  style: compressed
+theme: jekyll-theme-primer
 
 title: gng
 description: hello. hi.
